@@ -1,0 +1,14 @@
+[project]
+name = "java-property-escape"
+version = "0.1.0"
+description = "Decode Java .properties escape sequences (\\t, \\n, \\f, \\r, \\\\, \\uXXXX, and unknown \\x) into ordinary Python strings."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
